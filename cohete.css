@@ -1,0 +1,47 @@
+.triangulo{/*crea una figura*/
+    width: 0;/*ancho del triangulo*/
+    height: 0;/*altura del triangulo*/
+    border:125px solid transparent;/*opacidad del elemento*/
+    border-top: 0;/*establece elemento de la parte superior*/
+    border-bottom: 150px solid brown;/*permite de definir 
+    de una vez todas las propiedades individuales de la figura*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    display: block;/*establece que un elemento ocupará todo el espacio disponible por defecto 
+    y el siguiente elemento a este se situará por debajo*/
+}
+
+.rectangulo{/*crea una figura*/
+    width: 230px;/*ancho del rectangulo*/
+    height: 300px;/*altura del rectangulo*/
+    border-style: solid;/*establece la linea de los bordes */
+    margin-bottom: 10px;/*establece el espacio requerido en la parte inferior de la figura*/
+    background-color: azure;/*color de fondo del rectangulo*/
+    margin-left: 560px;/*margen izquierdo*/
+    margin-top: 3px;/*margen superior*/
+    position: fixed;/*posicion de la figura*/
+}
+.circulo{/*crea una figura*/
+    width: 100px;/*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius: 50%;/*esquinas curveadas para formar el circulo*/
+    background-color: aqua;/*color de fondo del circulo*/
+    border-style: solid;/*establece la linea de los bordes */
+    margin-bottom: 10px;/*establece el espacio requerido en la parte inferior del circulo*/
+    margin-left: 625px;/*margen izquierdo*/
+    margin-top: 10px;/*margen superior*/
+    position:fixed;/*posicion de la figura*/
+
+}
+ .cola{/*crea una figura*/
+    width: 100px;/*ancho del trapecio*/
+    height: 0px;/*altura del trapecio*/
+    border: 125px solid transparent;/*opacidad del elemento*/
+    border-style: solid;/*establece la linea de los bordes */
+    border-bottom: 150px solid black;/*permite de definir 
+    de una vez todas las propiedades individuales de la figura*/
+    margin-left: 505px;/*margen izquierdo*/
+    margin-top: 100px;/*margen superior*/
+    position: fixed;/*posicion de la figura*/
+    z-index: -1;/*indica el orden de un elemento posicionado*/
+}
